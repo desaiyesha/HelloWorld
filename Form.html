@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration Form </title>
+</head>
+<body bgcolor="skyblue">
+<form>
+    <h1> Registration Form</h1>
+    <table>
+        <tr>
+            <td> Name:</td>
+            <td>
+                <input type="text" name="name"> <br> <br>
+             </td>
+        </tr> 
+        <tr>
+            <td>Gender:</td>
+            <td>
+                <input type="radio" name="Gender">Male
+                <input type="radio" name="Gender">Female   <br> <br> 
+            </td>
+        </tr>
+        <tr>
+            <td> Email:</td>
+            <td>
+                <input type="text" name="Email"> <br> <br> 
+            </td>
+        </tr>
+        <tr>
+            <td> Password:</td>
+            <td>
+                <input type="text" name="Password"> <br> <br> 
+            </td>
+        </tr>
+        
+        <td>Conform password:</td>
+        <td>
+           <input type="Password" id="repass" name="repass">  <br> <br> 
+        <tr>
+            <td> Phone:</td>
+            <td>
+                <input type="text" name="country code"  value="+91" size="2"/>   
+                <input type="text" name="phone" size="10"/> <br> <br> 
+            </td>
+        </tr>
+        <td>address:</td>
+        <td>
+            <textarea cols="80" rows="5" value="address"></textarea>
+            <br> <br> 
+        </td>
+        <tr>
+            <td>course:</td>
+            <td>
+                <select>
+                <option value="Course">Course</option>  
+                <option value="Course">Web Designing</option>  
+                <option value="Course">Web Developer</option>  
+                <option value="Course">Machine Learning</option>  
+                <option value="Course">Artificial Intelligence</option>   
+                </select>  <br> <br> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="Submit"/>  
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
